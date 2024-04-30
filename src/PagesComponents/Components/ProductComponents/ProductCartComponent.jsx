@@ -32,7 +32,7 @@ const RemoveProductFromCart = async()=>{
              </div>
              <div className="details">
                  <h3>nome do produto aqui</h3>
-                  <span>vermelho | celular</span>
+                  <span>descrição do produto aqui ...</span>
                   <div className="actions">
                     <input type="number"  value={ProductAmount} min={1} onChange={(e)=>setProductAmount(e.target.value)}  className="form-control" />
                     <div className="price"><h5>€145.00</h5></div>
