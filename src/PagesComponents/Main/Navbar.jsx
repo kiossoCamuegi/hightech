@@ -27,10 +27,10 @@ function Navbar() {
               </div>
               <div className="br"></div>
               <ul className="d-flex">
-                  <li><Link to="/blog">Blog</Link></li>
-                  <li><Link to="/contact">contatos</Link></li>
-                  <li><Link to="/signup">Minha conta</Link></li>
-                  <li className="ac"> <li><Link to="/signup">Entrar </Link></li> / <li> <Link to="signup.html">Registrar</Link></li></li>
+                  <li><Link to="#">Blog</Link></li>
+                  <li><Link to="/contacts">contatos</Link></li>
+                  <li><Link to="#">Minha conta</Link></li>
+                  <li className="ac"> <li><Link to="#">Entrar </Link></li> / <li> <Link to="#">Registrar</Link></li></li>
               </ul>
          </div>
     </div> 
@@ -43,7 +43,7 @@ function Navbar() {
                 <li className="active"><Link to="/">Inicio</Link></li>
                 <li><Link to="/products">Produtos</Link></li>
                 <li><Link to="#">Ofertas</Link></li>
-                <li><Link to="/about">Sobre nós</Link></li>
+                <li><Link to="#">Sobre nós</Link></li>
                 <li><Link to="/contacts">Contatos</Link></li> 
             </ul>
          </div>
