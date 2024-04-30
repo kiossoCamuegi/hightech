@@ -12,7 +12,7 @@ function Logo({type}) {
 
   return (
     <div>
-       <Link to="#"><div className="logo"><ImageLazyLoading height={60} source={Logos[t >= 1 ? 1 : 0]} /></div></Link>
+       <Link to="/"><div className="logo"><ImageLazyLoading height={60} source={Logos[t >= 1 ? 1 : 0]} /></div></Link>
     </div>
   )
 }
